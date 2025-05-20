@@ -19,7 +19,7 @@
 ## สารบัญ
   - [Exploratory Data Analysis](#3.-Exploratory-Data-Analysis)
   - []()
-  - []()
+  - [In-Depth Analysis](#4.-In-Depth-Analysis)
   - [Insights & Recommendations](#5.-Insights-&-Recommendations)
 
 ---
@@ -45,7 +45,7 @@
 
 ---
 
-## 4.In-Depth Analysis
+## 4. In-Depth Analysis
 
 4.1 แนวโน้มของยอดขายในแต่ละปีเป็นอย่างไร
 
