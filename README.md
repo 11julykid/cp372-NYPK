@@ -86,7 +86,7 @@ Ans: ส่วนลดและกำไรมีความสัมพัน
 ![image](https://github.com/user-attachments/assets/9ae7cc85-7c7d-4f51-81e4-6e0a5b6e051b)
 
 ---
-## Public Dashboard Link
+## Tableau Visualization Link
 https://public.tableau.com/app/profile/pharnchanok.khwansungnuen/viz/CP372_Supermarket_Project_114_120/Dashboard1?publish=yes
 
 
