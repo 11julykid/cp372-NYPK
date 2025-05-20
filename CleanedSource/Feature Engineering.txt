@@ -1,0 +1,23 @@
+Feature Engineering (การสร้างคุณลักษณะใหม่)
+
+1.Discount Group
+= IF [Discount] <= 0.1 THEN "0–10%"
+ELSEIF [Discount] <= 0.2 THEN "11–20%"
+ELSEIF [Discount] <= 0.3 THEN "21–30%"
+ELSE "31%+"
+END
+
+2.Cost
+= [Sales]-[Profit]
+
+3.Profit Ratio Audit
+= [Profit]/[Sales]
+
+4.Quaters
+= DATEPART('quarter',[Order Date])
+
+5.Sales per Order
+= SUM([Sales])/COUNT([Order Date])
+
+6.Year
+= DATEPART('year',[Order Date])
