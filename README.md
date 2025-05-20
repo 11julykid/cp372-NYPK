@@ -1,4 +1,4 @@
-# CP372 Data Analytic Project: โครงงานวิเคราะห์อัตราการเติบโตของกำไรในบริษัทขายสินค้า
+## CP372 Data Analytic Project: โครงงานวิเคราะห์อัตราการเติบโตของกำไรในบริษัทขายสินค้า
 
 ---
 
@@ -7,10 +7,14 @@
 2. นางสาวปานชนก ขวัญสูงเนิน 65102010120
 
 ---
-สารบัญ
+
+# สารบัญ
+
 ---
 
-3. Exploratory Data Analysis
+---
+
+# 3. Exploratory Data Analysis
 
 3.1 กราฟเส้นแสดงยอดขายและกำไรในแต่ละปี
 ![image](https://github.com/user-attachments/assets/94ae816e-a5fa-4b3f-a9b3-aebf956392b9)
@@ -27,7 +31,9 @@
 3.5 กราฟเส้นแสดงแนวโน้มของส่วนลดต่ออัตรากำไร
 ![image](https://github.com/user-attachments/assets/e933219d-1a3f-4e0e-9067-58347f0f5917)
 
-4.In-Depth Analysis
+---
+
+# 4.In-Depth Analysis
 
 4.1 แนวโน้มของยอดขายในแต่ละปีเป็นอย่างไร
 
@@ -39,7 +45,9 @@ Ans: ตั้งแต่ปี 2013 บริษัทมีแนวโน้
 Ans: ส่วนลดและกำไรมีความสัมพันธ์เป็นแบบ negative correlation คือเมื่อให้ส่วนลดมากขึ้น อัตรากำไรก็จะลดลง
 ![image](https://github.com/user-attachments/assets/8c2e865c-684d-49c5-afbe-5ab2fe54567f)
 
-5. Insights & Recommendations
+--- 
+
+# 5. Insights & Recommendations
 
 5.1 ไตรมาสที่ 2 ของปี 2016 มีกำไรน้อยกว่าไตรมาสที่ 1 ต่างจาก 3 ปีที่ผ่านมาโดยที่ Sales และ Cost(ต้นทุน) ไม่ได้มีการเปลี่ยนแปลงมากนัก
 
