@@ -20,7 +20,7 @@
   - [Exploratory Data Analysis](#3.-Exploratory-Data-Analysis)
   - []()
   - []()
-  - []()
+  - [Insights & Recommendations](#5.-Insights-&-Recommendations)
 
 ---
 
