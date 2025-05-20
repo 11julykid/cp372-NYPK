@@ -1,4 +1,4 @@
-## CP372 Data Analytic Project: โครงงานวิเคราะห์อัตราการเติบโตของกำไรในบริษัทขายสินค้า
+# CP372 Data Analytic Project: โครงงานวิเคราะห์อัตราการเติบโตของกำไรในบริษัทขายสินค้า
 
 ---
 
@@ -8,13 +8,13 @@
 
 ---
 
-# สารบัญ
+## สารบัญ
 
 ---
 
 ---
 
-# 3. Exploratory Data Analysis
+## 3. Exploratory Data Analysis
 
 3.1 กราฟเส้นแสดงยอดขายและกำไรในแต่ละปี
 ![image](https://github.com/user-attachments/assets/94ae816e-a5fa-4b3f-a9b3-aebf956392b9)
@@ -33,7 +33,7 @@
 
 ---
 
-# 4.In-Depth Analysis
+## 4.In-Depth Analysis
 
 4.1 แนวโน้มของยอดขายในแต่ละปีเป็นอย่างไร
 
@@ -47,7 +47,7 @@ Ans: ส่วนลดและกำไรมีความสัมพัน
 
 --- 
 
-# 5. Insights & Recommendations
+## 5. Insights & Recommendations
 
 5.1 ไตรมาสที่ 2 ของปี 2016 มีกำไรน้อยกว่าไตรมาสที่ 1 ต่างจาก 3 ปีที่ผ่านมาโดยที่ Sales และ Cost(ต้นทุน) ไม่ได้มีการเปลี่ยนแปลงมากนัก
 
