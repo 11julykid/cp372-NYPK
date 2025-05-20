@@ -21,6 +21,7 @@
   - [Exploratory Data Analysis](#3.-Exploratory-Data-Analysis)
   - [In-Depth Analysis](#4.-In-Depth-Analysis)
   - [Insights & Recommendations](#5.-Insights-&-Recommendations)
+  - [Visualization](#Visualization)
 
 ---
 ## Overview
@@ -78,6 +79,12 @@ Ans: ส่วนลดและกำไรมีความสัมพัน
 ![image](https://github.com/user-attachments/assets/35bc2eaf-0986-457a-8729-c4c4502c64be)
 ![image](https://github.com/user-attachments/assets/4b7d6410-8d17-4f77-b9ec-eb5b9b7d254a)
 ![image](https://github.com/user-attachments/assets/27880f78-a6b5-45ad-981e-b3e398fbfbaa)
+
+---
+## Visualization
+![image](https://github.com/user-attachments/assets/0722b8f2-e8e0-4769-b2a2-1389e7605abc)
+
+---
 
 
 
