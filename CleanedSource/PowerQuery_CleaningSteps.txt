@@ -1,0 +1,40 @@
+let
+    // 1. โหลดข้อมูลจากไฟล์ Excel ในเครื่อง
+    Source = Excel.Workbook(File.Contents("D:\year 3\cp372\CP372_Supermarket_Dataset.xlsx"), null, true),
+
+    // 2. ดึงข้อมูลจาก Sheet ชื่อว่า "Tableau Superstore"
+    #"Tableau Superstore_Sheet" = Source{[Item="Tableau Superstore",Kind="Sheet"]}[Data],
+
+    // 3. ตั้งค่าบรรทัดแรกของข้อมูลเป็นชื่อหัวตาราง (Promote Header)
+    #"Promoted Headers" = Table.PromoteHeaders(#"Tableau Superstore_Sheet", [PromoteAllScalars=true]),
+
+    // 4. แปลงชนิดข้อมูลของแต่ละคอลัมน์ให้ถูกต้อง เช่น:
+    // - วันที่ → เป็นชนิด date
+    // - Profit, Sales → เป็นชนิด Currency (ตัวเลข)
+    // - Discount, Profit Ratio → เป็นตัวเลขแบบทศนิยม (number)
+    // - รหัสไปรษณีย์ (Postal Code), จำนวนสินค้า (Quantity) → เป็นจำนวนเต็ม
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {
+        {"Category", type text},
+        {"City", type text},
+        {"Country", type text},
+        {"Customer Name", type text},
+        {"Manufacturer", type text},
+        {"Order Date", type date},
+        {"Order ID", type text},
+        {"Postal Code", Int64.Type},
+        {"Product Name", type text},
+        {"Region", type text},
+        {"Segment", type text},
+        {"Ship Date", type date},
+        {"Ship Mode", type text},
+        {"State", type text},
+        {"Sub-Category", type text},
+        {"Discount", type number},
+        {"Number of Records", Int64.Type},
+        {"Profit", Currency.Type},
+        {"Profit Ratio", type number},
+        {"Quantity", Int64.Type},
+        {"Sales", Currency.Type}
+    })
+in
+    #"Changed Type"
