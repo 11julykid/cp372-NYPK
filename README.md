@@ -17,7 +17,7 @@
 ---
 
 ## สารบัญ
-  - [Exploratory Data Analysis](# 3. Exploratory Data Analysis)
+  - [Exploratory Data Analysis](#3. Exploratory Data Analysis)
   - []()
   - []()
   - []()
