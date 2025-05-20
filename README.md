@@ -42,8 +42,6 @@ Ans: ส่วนลดและกำไรมีความสัมพัน
 ![image](https://github.com/user-attachments/assets/4b7d6410-8d17-4f77-b9ec-eb5b9b7d254a)
 ![image](https://github.com/user-attachments/assets/27880f78-a6b5-45ad-981e-b3e398fbfbaa)
 
-6. Tableau Visualization Link
-
 
 
 
