@@ -89,6 +89,9 @@ Ans: ส่วนลดและกำไรมีความสัมพัน
 ## Tableau Visualization Link
 Dashboard : https://public.tableau.com/app/profile/pharnchanok.khwansungnuen/viz/CP372_Supermarket_Project_114_120/Dashboard1?publish=yes
 
+---
+## Youtube Presentation Video Link
+https://youtu.be/OIvjXCwjJ0Y?si=RO-J55ZSwMHtgPyS
 
 
 
